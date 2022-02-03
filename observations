@@ -1,0 +1,152 @@
+1.
+The ProcessID go down for every each line.The parent ID for each Child ID is 1, and the Child ID in the last line always equal to 0
+
+2. (I:1 -> 6138)
+    	|
+    	V
+   (I:2 -> 6139)
+    	|
+    	V
+   (I:3 -> 6140)
+    	|
+    	V
+   (I:4 -> 6141)
+
+
+3.
+tuannguyen@MacBook-Pro CS4670_Project1 % ./chain -p 100
+i:1 process ID:6574 parent ID:6020 child ID:6575
+i:2 process ID:6575 parent ID:1 child ID:6576                                   
+i:3 process ID:6576 parent ID:1 child ID:6577
+i:4 process ID:6577 parent ID:1 child ID:6578
+i:5 process ID:6578 parent ID:1 child ID:6579
+i:6 process ID:6579 parent ID:1 child ID:6580
+tuannguyen@MacBook-Pro CS4670_Project1 % i:7 process ID:6580 parent ID:1 child ID:6581
+i:8 process ID:6581 parent ID:1 child ID:6582
+i:9 process ID:6582 parent ID:1 child ID:6583
+i:10 process ID:6583 parent ID:1 child ID:6584
+i:11 process ID:6584 parent ID:1 child ID:6585
+i:12 process ID:6585 parent ID:1 child ID:6586
+i:13 process ID:6586 parent ID:1 child ID:6587
+i:14 process ID:6587 parent ID:1 child ID:6588
+i:15 process ID:6588 parent ID:1 child ID:6589
+i:16 process ID:6589 parent ID:1 child ID:6590
+i:17 process ID:6590 parent ID:1 child ID:6591
+i:18 process ID:6591 parent ID:1 child ID:6592
+i:19 process ID:6592 parent ID:1 child ID:6593
+i:20 process ID:6593 parent ID:1 child ID:6594
+i:21 process ID:6594 parent ID:1 child ID:6595
+i:22 process ID:6595 parent ID:1 child ID:6596
+i:23 process ID:6596 parent ID:1 child ID:6597
+i:24 process ID:6597 parent ID:1 child ID:6598
+i:25 process ID:6598 parent ID:1 child ID:6599
+i:26 process ID:6599 parent ID:1 child ID:6600
+i:27 process ID:6600 parent ID:1 child ID:6601
+i:28 process ID:6601 parent ID:1 child ID:6602
+i:29 process ID:6602 parent ID:1 child ID:6603
+i:30 process ID:6603 parent ID:1 child ID:6604
+i:31 process ID:6604 parent ID:1 child ID:6605
+i:32 process ID:6605 parent ID:1 child ID:6606
+i:33 process ID:6606 parent ID:1 child ID:6607
+i:34 process ID:6607 parent ID:1 child ID:6608
+i:35 process ID:6608 parent ID:1 child ID:6609
+i:36 process ID:6609 parent ID:1 child ID:6610
+i:37 process ID:6610 parent ID:1 child ID:6611
+i:38 process ID:6611 parent ID:1 child ID:6612
+i:39 process ID:6612 parent ID:1 child ID:6613
+i:40 process ID:6613 parent ID:1 child ID:6614
+i:41 process ID:6614 parent ID:1 child ID:6615
+i:42 process ID:6615 parent ID:1 child ID:6616
+i:43 process ID:6616 parent ID:1 child ID:6617
+i:44 process ID:6617 parent ID:1 child ID:6618
+i:45 process ID:6618 parent ID:1 child ID:6619
+i:46 process ID:6619 parent ID:1 child ID:6620
+i:47 process ID:6620 parent ID:1 child ID:6621
+i:48 process ID:6621 parent ID:1 child ID:6622
+i:49 process ID:6622 parent ID:1 child ID:6623
+i:50 process ID:6623 parent ID:1 child ID:6624
+i:51 process ID:6624 parent ID:1 child ID:6625
+i:52 process ID:6625 parent ID:1 child ID:6626
+i:53 process ID:6626 parent ID:1 child ID:6627
+i:54 process ID:6627 parent ID:1 child ID:6628
+i:55 process ID:6628 parent ID:1 child ID:6629
+i:56 process ID:6629 parent ID:1 child ID:6630
+i:57 process ID:6630 parent ID:1 child ID:6631
+i:58 process ID:6631 parent ID:1 child ID:6632
+i:59 process ID:6632 parent ID:1 child ID:6633
+i:60 process ID:6633 parent ID:1 child ID:6634
+i:61 process ID:6634 parent ID:1 child ID:6635
+i:62 process ID:6635 parent ID:1 child ID:6636
+i:63 process ID:6636 parent ID:1 child ID:6637
+i:64 process ID:6637 parent ID:1 child ID:6638
+i:65 process ID:6638 parent ID:1 child ID:6639
+i:66 process ID:6639 parent ID:1 child ID:6640
+i:67 process ID:6640 parent ID:1 child ID:6641
+i:68 process ID:6641 parent ID:1 child ID:6642
+i:69 process ID:6642 parent ID:1 child ID:6643
+i:70 process ID:6643 parent ID:1 child ID:6644
+i:71 process ID:6644 parent ID:1 child ID:6645
+i:72 process ID:6645 parent ID:1 child ID:6646
+i:73 process ID:6646 parent ID:1 child ID:6647
+i:74 process ID:6647 parent ID:1 child ID:6648
+i:75 process ID:6648 parent ID:1 child ID:6649
+i:76 process ID:6649 parent ID:1 child ID:6650
+i:77 process ID:6650 parent ID:1 child ID:6651
+i:78 process ID:6651 parent ID:1 child ID:6652
+i:79 process ID:6652 parent ID:1 child ID:6653
+i:80 process ID:6653 parent ID:1 child ID:6654
+i:81 process ID:6654 parent ID:1 child ID:6655
+i:82 process ID:6655 parent ID:1 child ID:6656
+i:83 process ID:6656 parent ID:1 child ID:6657
+i:84 process ID:6657 parent ID:1 child ID:6658
+i:85 process ID:6658 parent ID:1 child ID:6659
+i:86 process ID:6659 parent ID:1 child ID:6660
+i:87 process ID:6660 parent ID:1 child ID:6661
+i:88 process ID:6661 parent ID:1 child ID:6662
+i:89 process ID:6662 parent ID:1 child ID:6663
+i:90 process ID:6663 parent ID:1 child ID:6664
+i:91 process ID:6664 parent ID:1 child ID:6665
+i:92 process ID:6665 parent ID:1 child ID:6666
+i:93 process ID:6666 parent ID:1 child ID:6667
+i:94 process ID:6667 parent ID:1 child ID:6668
+i:95 process ID:6668 parent ID:1 child ID:6669
+i:96 process ID:6669 parent ID:1 child ID:6670
+i:97 process ID:6670 parent ID:1 child ID:6671
+i:98 process ID:6671 parent ID:1 child ID:6672
+i:99 process ID:6672 parent ID:1 child ID:6673
+i:100 process ID:6673 parent ID:6672 child ID:0
+
+The program can run with the largest number of processes
+
+4.
+The Maximus number of process is always 28 processes 
+
+5.
+As the loops iterate i times, the output values are consistent for
+each index, i. The sequence of the print statements are occasionally
+out of order, suggesting uneven delays in completing each process.
+
+6.
+The process ID's are outputted in reverse order.
+
+tuannguyen@MacBook-Pro CS4670_Project1 % ./chain_Wait -p 10
+i:10 process ID:11795 parent ID:11794 child ID:0
+i:9 process ID:11794 parent ID:11793 child ID:11795
+i:8 process ID:11793 parent ID:11792 child ID:11794
+i:7 process ID:11792 parent ID:11791 child ID:11793
+i:6 process ID:11791 parent ID:11790 child ID:11792
+i:5 process ID:11790 parent ID:11789 child ID:11791
+i:4 process ID:11789 parent ID:11788 child ID:11790
+i:3 process ID:11788 parent ID:11787 child ID:11789
+i:2 process ID:11787 parent ID:11786 child ID:11788
+i:1 process ID:11786 parent ID:6020 child ID:11787
+tuannguyen@MacBook-Pro CS4670_Project1 % 
+
+
+7.
+After I modified my code by replacing the final fprintf statement with four sprints statement causes significant increase in init's adoption numbers, But All the process is still running the same. When the process limit is coming, there will be
+sometimes overlap fprintf statements from "race" processes.
+
+
+8.
+The program prompts me to enter my first character. But then the program runs forever, so I have to exit the program by pressing Control +C
